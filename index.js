@@ -1,9 +1,8 @@
 const Discord = require("discord.js");
-///Old Code:const config = require("./config.json");
 //const { prefix, token } = require('./config.json');
+const prefix = "+";
 const bot = new Discord.Client({disableEveryone: true});
 const fs = require("fs");
-const prefix = "+";
 bot.commands = new Discord.Collection();
 
 // Requires all dependencies
