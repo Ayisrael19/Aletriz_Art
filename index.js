@@ -7,7 +7,7 @@ bot.commands = new Discord.Collection();
 
 // Requires all dependencies
 
-fs.readdir("./commands/",(err, files)=>{
+fs.readdir("./Commands",(err, files)=>{
     if (err) console.log(err)
 
     let jsfile = files.filter(f => f.split(".").pop() === "js")
